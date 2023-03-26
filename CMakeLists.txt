@@ -15,8 +15,5 @@ include_directories(${Boost_INCLUDE_DIRS} /Users/subowen/Desktop/hw/hw/gnuplot-i
 add_executable(my_executable main.cpp)
 
 # Link against Boost libraries
-target_link_libraries(my_executable ${Boost_LIBRARIES})
-
-# Link against gnuplot-iostream library
-# target_link_libraries(my_executable gnuplot-iostream)
+target_link_libraries(my_executable ${Boost_L
 
